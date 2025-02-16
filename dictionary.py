@@ -1,0 +1,35 @@
+equipment = {
+    "Drawing Board":"Flat surface for drafting.",
+    "T-Square":"Guides horizontal lines.",
+    "Set Squares":"Draws angles.",
+    "Protractor":"Measures angles.",
+    "Compass":"Draws circles/arcs.",
+    "Dividers":"Transfers measurements.",
+    "French Curves":"draws smooth curves.",
+    "Templates":"Predefined shapes for accuracy.",
+    "Scale Ruler":"Measures and scales drawings.",
+    "Drafting Machine":"Combines ruler and protractor.",
+    "Pencils":"For sketching and drawing.",
+    "Mechanical Pencils":"Precision line work.",
+    "Eraser":"Removes pencil marks.",
+    "Eraser Shield":"Protects surrounding areas while erasing.",
+    "Tracing Paper":"Copies drawings.",
+    "Masking Tape":"Holds paper securely.",
+    "Ink Pens":"Permanent lines in ink.",
+    "Rotring Pens":"Technical ink pens.",
+    "CAD Software":"Digital crafting tool.",
+    "Plotter":"Prints large-scale drawings.",
+    "Lettering Guide":"Ensures uniform text.",
+    "Brush":"Cleans eraser debris.",
+    "Sharpener":"Maintains pencil points.",
+    "Duster":"Cleans work area.",
+    "Graph Paper":"Aids precision drawing.",
+    "Stencils":"Draws Repetitive shapes.",
+    "Blueprint Machine":"Reproduces technical drawings.",
+    "Lead Holder":"Holds lead for drawing.",
+    "Adjustable Triangle":"Flexible angle drawing.",
+    "Flexible Curve":"Draws irregular curves."
+    }
+
+y = input("Engineering Drawing and Plans - Search: ",)
+print("result:",equipment[y])
